@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SB Graphics</title>
+</head>
+<link rel="stylesheet" href="CSS/style.css">
+
+<style>
+    /* CSS Reset */
+    body {
+        /* color: #053703; */
+        margin: 0px;
+        padding: 0px;
+        font-family: poppins semibold;
+        font-size: 17px;
+
+
+
+    }
+
+    .bg {
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+
+    }
+
+    .bg img {
+        position: absolute;
+        filter: blur(3px);
+        top: 226px;
+        right: -23px;
+    }
+
+    .top {
+        /* border: 2px solid rgb(24, 97, 1); */
+        /* box-sizing: border-box; */
+        display: inline-block;
+        /* position: fixed; */
+        height: 90%;
+        width: auto;
+        /* z-index: 1; */
+    }
+
+    .top img {
+        width: 100%;
+    }
+
+    .left {
+        /* border: 2px solid rgb(211, 1, 1); */
+        display: inline-block;
+        position: fixed;
+        left: 35px;
+        top: 15px;
+
+    }
+
+    .left img {
+        width: 31%;
+    }
+
+    .right {
+        /* border: 2px solid rgb(5, 194, 8); */
+        display: inline-block;
+        position: absolute;
+        right: 20px;
+        top: 250px;
+    }
+
+    .navbar {
+        display: inline-block;
+        font-family: poppins;
+    }
+
+    .navbar li {
+        display: inline-block;
+    }
+
+    .navbar li a {
+        color: #c69800;
+        text-decoration: none;
+        padding: 10px;
+        cursor: pointer;
+    }
+
+    .navbar li a:hover,
+    .navbar li a:active {
+        color: #E1D7C6;
+        /* font-size:18px; */
+    }
+
+    .sticky {
+        /* border: 1px solid rgb(31, 33, 31); */
+        position: absolute;
+        right: 5px;
+        bottom: 5px;
+        color: white;
+        /* cursor:pointer; */
+    }
+
+    .btn1 {
+        /* border: 2px solid rgb(31, 33, 31);
+        border-radius: 100px; */
+        display: inline-block;
+        position: fixed;
+        right: 20px;
+        bottom: 120px;
+        cursor: pointer;
+    }
+
+    .btn1 img {
+        /* bottom: 800px; */
+        height: 45px;
+        width: 45px;
+    }
+
+
+
+    .btn2 {
+        /* border: 2px solid rgb(31, 33, 31);
+        border-radius: 100px; */
+        display: inline-block;
+        position: fixed;
+        right: 20px;
+        bottom: 60px;
+        cursor: pointer;
+    }
+
+    .btn2 img {
+        height: 45px;
+        width: 45px;
+    }
+
+    .btn3 {
+        /* border: 2px solid rgb(31, 33, 31);
+        border-radius: 100px; */
+        display: inline-block;
+        position: fixed;
+        right: 20px;
+        bottom: 1px;
+        cursor: pointer;
+    }
+
+    .btn3 img {
+        height: 45px;
+        width: 45px;
+    }
+
+    .mid {
+        /* border: 2px solid rgb(35, 5, 184); */
+        display: block;
+        position: absolute;
+        width: 40%;
+        height: 80;
+        margin: 200px auto;
+        font-size: 30px;
+        color: blanchedalmond;
+        right: 220px;
+        top: 139px;
+    }
+
+    .name {
+        font-family: BeautySchoolDropoutII;
+        font-size: 100px;
+        color: #e6e9be;
+    }
+
+    .name:hover {
+        color: #fefd68
+    }
+
+    .owner {
+        display: inline-block;
+        /* position: relative; */
+        height: 100%;
+        width: auto;
+    }
+
+    .owner img {
+        position: absolute;
+        left: 85px;
+        top: 352px;
+        height: 800px;
+        filter: drop-shadow(0px 0px 17px black);
+
+    }
+
+    .bottom {
+        border: 2px solid rgb(255, 221, 0);
+        position: absolute;
+        right: 50%;
+        bottom: 30px;
+        margin: auto;
+
+    }
+
+    .container {
+        color: bisque;
+        text-align: center;
+        border: 1px solid #fff252;
+        position: absolute;
+        display: inline-block;
+        right: 40%;
+        top: 170%;
+        width: 500px;
+    }
+
+    .formgroup input {
+        text-align: Left;
+        width: 200px;
+        display: block;
+        padding: 4px;
+        margin: 3px auto;
+        border: 2px solid black;
+
+    }
+
+    .sub {
+        width: 54px;
+        display: block;
+        padding: 4px;
+        margin: 14px auto;
+        cursor: pointer;
+    }
+</style>
+
+<body>
+    <header class="header">
+
+        <!-- top for display image -->
+        <div class="top">
+            <img src="img/Web copy.jpg" alt="">
+        </div>
+        <div class="bg">
+            <img src="img\FX copy.png" alt="">
+        </div>
+        <!-- left for logo -->
+        <!-- <div class="left">
+            <img src="img/Main.png" alt="">
+        </div> -->
+        <!-- mid for introduction -->
+        <div class="mid">
+            <Header class="name">
+                Mr.SIDDHANT
+                BHORE
+            </Header>
+            <!-- Recent computer science graduate with a passion for developing scalable web applications and working across
+            the full stack. -->
+            I am currently pursuing a degree in computer engineering, which has provided me with a strong foundation in
+            computer technology. I am proficient in programming language Java. <br>
+
+            I have a strong proficiency in using graphic design tools and software, including Adobe Photoshop, Canva,
+            Filmora. As I’ve working for own firm I have experience in designing logos, brochures, flyers, business
+            cards, websites, and mobile app interfaces.
+
+        </div>
+        <div class="owner">
+            <img src="img\20210920044742_IMG_0476-01.png" alt="">
+        </div>
+        <!-- right for navigation bars -->
+        <div class="right">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Social</a></li>
+                <li><a href="#">Share</a><a></a></li>
+            </ul>
+        </div>
+        <div class="sticky">
+            <div>
+                <button class="btn1">
+                    <img src="img\whatsaap.png" alt="whatsaap">
+                </button>
+            </div>
+            <div>
+                <button class="btn2">
+                    <img src="img\Email.png" alt="">
+                </button>
+            </div>
+            <div>
+                <button class="btn3">
+                    <img src="img\Top.png" alt="">
+                </button>
+            </div>
+        </div>
+        <!-- bottom for doings -->
+        <div class="bottom-top">
+            i am bottom-top
+        </div>
+        <!-- <div class="bottom">
+            i am bottom
+        </div> -->
+        <div class="container">
+            <h2>Submit Your Reviews Below</h2>
+            <form action="noaction.php">
+                <div class="formgroup">
+                    <input type="text" name="" id="uname" placeholder="Enter Your Name">
+                </div>
+                <div class="formgroup">
+                    <input type="email" name="" id="uemail" placeholder="Enter Your Email">
+                </div>
+                <div class="formgroup">
+                    <input type="tel" name="" id="unum" placeholder="Enter your Mobile Number">
+                </div>
+                <div class="formgroup">
+                    <input type="text" name="" id="ureview" placeholder="Please write your review">
+                </div>
+                <button class="sub">
+                    Submit
+                </button>
+            </form>
+        </div>
+    </header>
+</body>
+
+</html>
